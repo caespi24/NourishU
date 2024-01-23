@@ -1,0 +1,234 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Login page */
+
+
+.container{
+    margin-top: 50%;
+}
+
+.username{
+    margin: 0 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.username.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.fname{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.fname.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.lname{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.lname.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.age{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.age.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.gender{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.gender.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.bdate{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.bdate.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.weight{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.weight.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.height{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.height.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.email{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.email.active {
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.password{
+    margin: -1rem 0 2rem 0;
+    border-radius: 10px;
+    height: 3rem;
+    color: #595959;
+    background-color: rgb(238, 238, 238);
+}
+
+.password.active{
+    border: 2px solid #64dd17;
+    border-radius: 10px;
+}
+
+.row{
+    margin: 0;
+}
+
+.btn{
+    margin: -1rem auto 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #64dd17;
+    background: linear-gradient(83.84deg, #ccff90 -6.87%, #76ff03 26.54%, #64dd17 58.58%);
+    border-radius: 100px;
+    color: white;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #A033FF;
+    border: 1px solid #A033FF;
+}
+
+input[type=text]:not(.browser-default), input[type=password]:not(.browser-default){
+    border-bottom: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]){
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-icons{
+    background-color: #64dd17;
+    padding: 30px 23px;
+    border-radius: 100px;
+    margin: 0 .5rem;
+}
+
+/* Sign Up Structure */
+
+.modal::-webkit-scrollbar{
+    width: .5rem;
+}
+
+.modal::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.modal::-webkit-scrollbar-thumb{
+    background: rgba(24, 24, 24, .4);
+    border-radius: 5rem;
+}
+
+.modal-sheet{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.cp1{
+    margin: 0 -.7rem;
+    border-radius: 20px;
+}
+
+.send-btn{
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100px;
+    border-radius: 30px;
+}
+
+.send-btn:hover{
+    background-color: rgba(24, 24, 24, .4);
+}
+
+.sign-up-btn{
+    color: #64dd17;
+    text-decoration: underline;
+}
+
+
