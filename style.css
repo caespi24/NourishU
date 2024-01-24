@@ -189,8 +189,8 @@ body{
 
 .btn:hover{
     cursor: pointer;
-    background-color: #A033FF;
-    border: 1px solid #A033FF;
+    background-color: #8bc34a;
+    border: 1px solid #8bc34a;
 }
 
 .or-text{
@@ -259,7 +259,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 }
 
 .sign-up-btn{
-    color: #64dd17;
+    color: #33691e;
     text-decoration: underline;
 }
 
