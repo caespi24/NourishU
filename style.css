@@ -1,13 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9fbe7;
 }
 
 /* Login page */
 
-
+/* 
 .container{
     margin-top: 50%;
-}
+} */
 
 .username{
     margin: 0 0 2rem 0;
@@ -231,4 +232,47 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     text-decoration: underline;
 }
 
+/* Main html css */
 
+nav{
+    background: linear-gradient(83.84deg, #ccff90 -6.87%, #76ff03 26.54%, #64dd17 58.58%);
+}
+
+.main-logo{
+    width: auto;
+    height: 50px;
+    margin: .3rem 0;
+}
+
+/* Food Log Section*/
+.home{
+    margin-top: 1rem;
+}
+
+.cp-foodlog{
+    background-color: #ccff90;
+    border: 1px solid #76ff03;
+    border-radius: 20px;
+}
+
+.carousel{
+    height: 500px;
+}
+
+.carousel-item{
+    margin-top: -10rem;
+}
+
+.flr-img{
+    margin-left: 2.7rem;
+    line-height: 5rem;
+    height: 50px;
+    width: 50px;
+}
+
+.cp-flr{
+    background-color: #ccff90;
+    border: 1px solid #76ff03;
+    border-radius: 20px;
+    color: white;
+}

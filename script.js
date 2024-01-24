@@ -1,3 +1,19 @@
+$(document).ready(function(){
+    // Modal init
+    $('.modal').modal();
+
+    // Carousel init
+    $('.carousel').carousel({
+        padding: 100,
+        numVisible: 3
+    });
+
+     // function for carousel autoplay
+    setInterval(function(){
+    $('.carousel').carousel('next');
+    }, 3000);
+})
+
 $('.username').on('click', function() {
     $(this).addClass('active');
     $('.password').removeClass('active');
@@ -127,8 +143,3 @@ $('.height').on('click', function() {
     $('.weight').removeClass('active');
     $('.username').removeClass('active');
 });
-
-$(document).ready(function(){
-    //Modal init
-    $('.modal').modal();
-})
