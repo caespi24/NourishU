@@ -10,6 +10,9 @@ body{
 
 /* Login page */
 
+.logo-img{
+    margin-top: -3.5rem;
+}
 .header-text{
     font-family: "Neuton", serif;
     font-weight: 700;
