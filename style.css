@@ -168,6 +168,12 @@ body{
     background: transparent;
     border-radius: 100px;
     color: black;
+    transition: .2s ease;
+}
+
+.btn-google:hover{
+    color: white;
+    background-color: #33691e;
 }
 
 .btn{
@@ -185,6 +191,7 @@ body{
     background: #33691e;
     border-radius: 100px;
     color: white;
+    transition: .2s ease;
 }
 
 .btn:hover{
