@@ -1,151 +1,157 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Century Gothic';
     background-color: #f9fbe7;
+}
+
+@font-face {
+    font-family: "Avant Garde Gothic";
+    src: url(avantgardegothic.woff);
 }
 
 /* Login page */
 
-/* 
-.container{
-    margin-top: 50%;
-} */
+.header-text{
+    font-family: "Neuton", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: -3rem;
+}
 
 .username{
     margin: 0 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .username.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .fname{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .fname.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .lname{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .lname.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .age{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .age.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .gender{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .gender.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .bdate{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .bdate.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .weight{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .weight.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .height{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .height.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .email{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .email.active {
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .password{
     margin: -1rem 0 2rem 0;
-    border-radius: 10px;
+    border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .password.active{
-    border: 2px solid #64dd17;
-    border-radius: 10px;
+    border: 2px solid #33691e;
+    border-radius: 30px;
 }
 
 .row{
-    margin: 0;
+    margin: 1rem 0;
 }
 
-.btn{
-    margin: -1rem auto 1rem auto;
+.btn-google{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,17 +161,39 @@ body{
     width: 100%;
     height: 50px;
     text-align: center;
-    border: 1px solid #64dd17;
-    background: linear-gradient(83.84deg, #ccff90 -6.87%, #76ff03 26.54%, #64dd17 58.58%);
+    border: 2px solid #33691e;
+    background: transparent;
+    border-radius: 100px;
+    color: black;
+}
+
+.btn{
+    margin: -1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #33691e;
+    background: #33691e;
     border-radius: 100px;
     color: white;
 }
-
 
 .btn:hover{
     cursor: pointer;
     background-color: #A033FF;
     border: 1px solid #A033FF;
+}
+
+.or-text{
+    margin: 1rem auto -1rem auto;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 input[type=text]:not(.browser-default), input[type=password]:not(.browser-default){
@@ -232,6 +260,10 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     text-decoration: underline;
 }
 
+.login-bg-img{
+    margin-bottom: -1rem;
+}
+
 /* Main html css */
 
 nav{
@@ -255,12 +287,8 @@ nav{
     border-radius: 20px;
 }
 
-.carousel{
-    height: 500px;
-}
-
 .carousel-item{
-    margin-top: -10rem;
+    margin-top: -5.5rem;
 }
 
 .flr-img{
@@ -275,4 +303,8 @@ nav{
     border: 1px solid #76ff03;
     border-radius: 20px;
     color: white;
+}
+
+.try{
+    line-height: 0px;
 }

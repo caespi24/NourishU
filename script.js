@@ -11,7 +11,7 @@ $(document).ready(function(){
      // function for carousel autoplay
     setInterval(function(){
     $('.carousel').carousel('next');
-    }, 3000);
+    }, 5000);
 })
 
 $('.username').on('click', function() {
