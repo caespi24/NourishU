@@ -297,6 +297,10 @@ nav{
     border-radius: 20px;
 }
 
+.carousel{
+    height: 450px;
+}
+
 .carousel-item{
     margin-top: -5.5rem;
 }
