@@ -307,19 +307,21 @@ nav{
 }
 
 .flr-img{
-    margin-left: 2.7rem;
-    line-height: 5rem;
-    height: 50px;
-    width: 50px;
+    border: 3px solid #33691e;
+    padding: 0;
+    border-radius: 50px;
+    margin-left: 4.7rem;
+    margin-top: -5rem;
+    height: 70px;
+    width: 70px;
 }
 
 .cp-flr{
-    background-color: #ccff90;
-    border: 1px solid #76ff03;
+    background-color: #6cb434;
+    border: 3px solid #33691e;
     border-radius: 20px;
     color: white;
+    width: 250px;
+    margin-left: -2.5rem;
 }
 
-.try{
-    line-height: 0px;
-}
