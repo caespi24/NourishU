@@ -8,10 +8,21 @@ $(document).ready(function(){
         numVisible: 3
     });
 
+    // Carousel-slider init
+    $('.cs').carousel({
+        dist: 0,
+        shift: -50
+    });
+
      // function for carousel autoplay
     setInterval(function(){
     $('.carousel').carousel('next');
     }, 5000);
+
+    // Floating Action Button init
+    $('.fixed-action-btn').floatingActionButton({
+        toolbarEnabled: true
+    });
 })
 
 $('.username').on('click', function() {

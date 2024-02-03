@@ -325,3 +325,42 @@ nav{
     margin-left: -2.5rem;
 }
 
+/* Main Btn */
+.main-tlbtn{
+    background-color: #33691e;
+}
+
+.tlbtn-icons{
+    background-color: #33691e;
+}
+
+.tlbtn-icons:focus{
+    background-color: #33691e;
+}
+
+/* Nutrient Intake */
+.nit-h3{
+    font-family: "Avant Garde Gothic";
+    color: #33691e;
+}
+
+.nit-p{
+    color: #33691e;
+}
+
+/* Macronutrients */
+.mn-icons{
+    background-color: #6cb434;
+    border: 3px solid #33691e;
+    border-radius: 50px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    margin-top: 8.2rem;
+    margin-left: 3.5rem;
+    padding: 0;
+}
+
+.cs{
+    height: 100px;
+}
