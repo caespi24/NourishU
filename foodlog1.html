@@ -22,17 +22,15 @@
     <title>NourishU</title>
 </head>
 <body>
-    
     <div class="container">
-        <!-- Calendar -->
+        <!-- Back button -->
+        <br>
+        <a href="main.html" class="back-btn"><i class="material-icons">arrow_back</i></a>
+        <br>
         <h3 class="center nit-h3">Nutrients Intake</h3>
         <p class="center nit-p">Start your lifelong wellness through nutrition by tracking your nutrients intake through the dashboard</p>
         <br>
-        <p class="light-green-text text-darken-4">Date and Time</p>
-        <input type="text" id="datetimePicker" placeholder="Select Date and Time">
-
         <!-- Food Search -->
-        <br>
         <h3 class="center nit-h3">Food Search</h3>
         <nav class="food-search">
             <div class="nav-wrapper">
@@ -45,6 +43,10 @@
                 </form>
             </div>
         </nav>
+
+        <!-- Calendar -->
+        <p class="light-green-text text-darken-4">Date and Time</p>
+        <input type="text" id="datetimePicker" placeholder="Select Date and Time">
     </div>
 
     <!-- Food unit and serving -->
@@ -60,7 +62,87 @@
             </div>
         </div>
 
-        <p class="flow-text light-green-text text-darken-4">Select serving size</p>
+        <div class="row">
+            <div class="col s12">
+                <p class="flow-text light-green-text text-darken-4">Select serving size</p>
+            </div>
+            <div class="col s2">
+                <div class="card-panel fus-icons">
+                    <p class="center">1/8</p>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card-panel fus-icons">
+                    <p class="center">1/4</p>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card-panel fus-icons">
+                    <p class="center">1/2</p>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card-panel fus-icons">
+                    <p class="center">3/4</p>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card-panel fus-icons">
+                    <p class="center">1</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Food Log -->
+        <div class="container">
+            <h3 class="center nit-h3">Food Logs</h3>
+            <!-- Table -->
+            <table class="highlight centered responsive-table">
+                <thead>
+                    <tr>
+                        <th>Food Name</th>
+                        <th>Food Group</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Meal Time</th>
+                        <th>Unit</th>
+                        <th>Service Size</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Eggplant</td>
+                        <td>Vegetable</td>
+                        <td>02/04/2024</td>
+                        <td>5:20 PM</td>
+                        <td>Dinner</td>
+                        <td>Cup</td>
+                        <td>1/2</td>
+                    </tr>
+                    <tr>
+                        <td>Eggplant</td>
+                        <td>Vegetable</td>
+                        <td>02/04/2024</td>
+                        <td>5:20 PM</td>
+                        <td>Dinner</td>
+                        <td>Cup</td>
+                        <td>1/2</td>
+                    </tr>
+                    <tr>
+                        <td>Eggplant</td>
+                        <td>Vegetable</td>
+                        <td>02/04/2024</td>
+                        <td>5:20 PM</td>
+                        <td>Dinner</td>
+                        <td>Cup</td>
+                        <td>1/2</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
 
         
 
