@@ -375,3 +375,9 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 #search{
     border-radius: 30px;
 }
+
+/* Food unit and serving */
+.btn-unit{
+    border-bottom: 2px solid #33691e;
+    color: #33691e;
+}

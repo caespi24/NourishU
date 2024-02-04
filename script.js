@@ -23,6 +23,9 @@ $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton({
         toolbarEnabled: true
     });
+
+    // Dropdown init
+    $('.dropdown-trigger').dropdown();
 })
 
 flatpickr("#datetimePicker", {
