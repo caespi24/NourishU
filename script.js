@@ -14,6 +14,11 @@ $(document).ready(function(){
         shift: -50
     });
 
+    $('.pdri-cs').carousel({
+        fullWidth: true,
+        indicators: true
+    });
+
      // function for carousel autoplay
     setInterval(function(){
     $('.carousel').carousel('next');

@@ -298,11 +298,11 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     border-radius: 20px;
 }
 
-.carousel{
+.main-cs{
     height: 450px;
 }
 
-.carousel-item{
+.cs-item{
     margin-top: -5.5rem;
 }
 
@@ -419,4 +419,30 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 .fus-icons:hover{
     background-color: #33691e;
     color: white;
+}
+
+/* PDRI page */
+
+.pdri-cs{
+    margin-top: 10rem;
+}
+
+.pdri-img1{
+    background-image: url(images/Thinking.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.pdri-img2{
+    background-image: url(images/PDRI.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.pdri-items{
+    background-color: transparent;
 }
