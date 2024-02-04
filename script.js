@@ -25,6 +25,12 @@ $(document).ready(function(){
     });
 })
 
+flatpickr("#datetimePicker", {
+    enableTime: true,
+    dateFormat: "m-d-Y H:i",
+});
+
+
 $('.username').on('click', function() {
     $(this).addClass('active');
     $('.password').removeClass('active');

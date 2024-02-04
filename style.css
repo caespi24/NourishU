@@ -277,7 +277,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 
 /* Main html css */
 
-nav{
+.main-nav{
     background: linear-gradient(83.84deg, #ccff90 -6.87%, #76ff03 26.54%, #64dd17 58.58%);
 }
 
@@ -363,4 +363,15 @@ nav{
 
 .cs{
     height: 100px;
+}
+
+/* Food Search */
+.food-search{
+    background-color: #33691e;
+    border: 2px solid #64dd17;
+    border-radius: 30px;
+}
+
+#search{
+    border-radius: 30px;
 }
