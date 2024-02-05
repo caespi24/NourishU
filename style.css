@@ -176,7 +176,7 @@ body{
     background-color: #33691e;
 }
 
-.btn{
+.create-btn{
     margin: -1rem 0 1rem 0;
     display: flex;
     justify-content: center;
@@ -194,7 +194,7 @@ body{
     transition: .2s ease;
 }
 
-.btn:hover{
+.create-btn:hover{
     cursor: pointer;
     background-color: #8bc34a;
     border: 1px solid #8bc34a;
@@ -424,7 +424,26 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 /* PDRI page */
 
 .pdri-cs{
-    margin-top: 10rem;
+    margin-top: 4rem;
+    overflow-y: auto;
+}
+
+.pdri-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #33691e;
+    background: white;
+    border-radius: 100px;
+    color: black;
+    transition: .2s ease;
 }
 
 .pdri-img1{
@@ -435,6 +454,45 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     height: 200px;
 }
 
+.swipe-text{
+    font-style: italic;
+}
+
+.swipe-text-right{
+    font-style: italic;
+    animation: floatTextRight 4s ease-in-out infinite;
+}
+
+
+@keyframes floatTextRight {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(2.4rem);
+    }  
+    100%{
+        transform: translateX(0);
+    }  
+}
+
+.swipe-text-down{
+    font-style: italic;
+    animation: floatTextDown 4s ease-in-out infinite;
+}
+
+@keyframes floatTextDown {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }  
+    100%{
+        transform: translateY(0);
+    }  
+}
+
 .pdri-img2{
     background-image: url(images/PDRI.png);
     background-position: center;
@@ -443,6 +501,22 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     height: 250px;
 }
 
+.pdri-img3{
+    background-image: url(images/Text+Logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
 .pdri-items{
     background-color: transparent;
+}
+
+.carousel .indicators .indicator-item{
+    background-color: grey;
+}
+
+.carousel .indicators .indicator-item.active{
+    background-color: #33691e;
 }

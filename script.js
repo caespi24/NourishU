@@ -16,12 +16,12 @@ $(document).ready(function(){
 
     $('.pdri-cs').carousel({
         fullWidth: true,
-        indicators: true
+        indicators: false
     });
 
      // function for carousel autoplay
     setInterval(function(){
-    $('.carousel').carousel('next');
+    $('.main-cs', '.cs').carousel('next');
     }, 5000);
 
     // Floating Action Button init
