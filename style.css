@@ -450,14 +450,13 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 
 .pdri-cs{
     margin-top: 4rem;
-    overflow-y: auto;
 }
 
 .pdri-btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem auto;
+    margin: 0rem auto;
     font-size: 18px;
     font-weight: bold;
     text-transform: none;
@@ -465,10 +464,14 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     height: 50px;
     text-align: center;
     border: 2px solid #33691e;
-    background: white;
+    background: #33691e;
     border-radius: 100px;
-    color: black;
+    color: white;
     transition: .2s ease;
+}
+
+.pdri-btn:hover{
+    background-color: #64dd17;
 }
 
 .pdri-img1{
@@ -531,11 +534,16 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
 }
 
 .pdri-items{
     background-color: transparent;
+}
+
+.pdri-items-long{
+    background-color: transparent;
+    overflow-y: auto;
 }
 
 .carousel .indicators .indicator-item{
@@ -544,4 +552,16 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 
 .carousel .indicators .indicator-item.active{
     background-color: #33691e;
+}
+
+.nu-h6{
+    margin-top: -2rem;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 35px;
+}
+
+.nu-h6p{
+    font-size: 10px;
+    line-height: 15px;
 }
