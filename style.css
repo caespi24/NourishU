@@ -230,7 +230,6 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 }
 
 /* Sign Up Structure */
-
 .modal::-webkit-scrollbar{
     width: .5rem;
 }
@@ -244,9 +243,14 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     border-radius: 5rem;
 }
 
+.modal{
+    margin: 0;
+}
+
 .modal-sheet{
     background-color: transparent;
     box-shadow: none;
+    width: auto;
 }
 
 
