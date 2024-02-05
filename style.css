@@ -453,8 +453,8 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 /* PDRI page */
 
 .pdri-cs{
-    margin-top: 4rem;
-    height: 1000px;
+    margin: 4rem 0;
+    height: auto;
 }
 
 .pdri-btn{
@@ -549,6 +549,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 .pdri-items-long{
     background-color: transparent;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .carousel .indicators .indicator-item{
