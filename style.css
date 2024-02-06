@@ -454,9 +454,6 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 
 .pdri-cs{
     margin-bottom: 2rem;
-    position: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .pdri-btn{
@@ -482,7 +479,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 }
 
 .pdri-img1{
-    margin-top: 10rem;
+    margin-top: 60%;
     background-image: url(images/Thinking.png);
     background-position: center;
     background-size: contain;
@@ -538,7 +535,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 }
 
 .pdri-img3{
-    margin-top: 3rem;
+    margin-top: 35%;
     background-image: url(images/Text+Logo.png);
     background-position: center;
     background-size: contain;
