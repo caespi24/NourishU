@@ -567,10 +567,10 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     margin-top: -2rem;
     font-size: 15px;
     font-weight: bolder;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .nu-h6p{
     font-size: 14px;
-    line-height: 15px;
+    line-height: 18px;
 }
