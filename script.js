@@ -176,3 +176,9 @@ document.addEventListener('DOMContentLoaded', function(){
         elems[i].style.height = carouselHeight + 'px';
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tabs');
+    var options = {};
+    var instances = M.Tabs.init(elems, options);
+});

@@ -281,8 +281,24 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 
 /* Main html css */
 
+.nav-bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.tabs .tab a {
+    color: #fff; 
+}
+
+.tabs .tab a.active {
+    border-bottom: 2px solid #64dd17;
+    transition: .2s linear;
+}
+
 .main-nav{
-    background: linear-gradient(83.84deg, #ccff90 -6.87%, #76ff03 26.54%, #64dd17 58.58%);
+    background: #33691e;
 }
 
 .main-logo{
