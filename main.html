@@ -67,7 +67,7 @@
                     </a>
                 </li>
                 <li class="list">
-                    <a href="#">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger">
                         <span class="icon"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
                         <span class="text">More</span>
                     </a>
@@ -76,6 +76,23 @@
             </ul>
         </div>
     </header>
+
+    <!-- Sidenav -->
+    <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+            <div class="background">
+                <!-- <img src="images/Food Bowl.png"> -->
+            </div>
+            <a href="#user"><img class="circle" src="images/AppLogo.png"></a>
+            <a href="#name"><span class="black-text name">John Doe</span></a>
+            <a href="#email"><span class="black-text email">jdandturk@gmail.com</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
     
 
     
@@ -156,7 +173,7 @@
         <h3 class="center nit-h3">Macronutrients</h3>
     </div>
         <div class="carousel cs">
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -166,7 +183,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -176,7 +193,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -186,7 +203,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -196,7 +213,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -206,7 +223,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -216,7 +233,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -226,7 +243,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -236,7 +253,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -246,7 +263,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="carousel-item cs-item">
+            <a href="#modal1" class="carousel-item cs-item modal-trigger">
                 <div class="row">
                     <div class="col s12">
                         <div class="card-panel mn-icons">
@@ -257,6 +274,20 @@
                 </div>
             </a>
         </div>
+
+    <!-- Modal Structure for Macronutrients -->
+    <div id="modal1" class="modal modal-sheet">
+        <div class="modal-content">
+            <div class="card-panel cp1">
+                <h2 class="light-green-text text-darken-4">Calcium</h2>
+                <p class="flow-text light-green-text text-darken-4">Status: <i class="fa-solid fa-circle" style="color: #33691e;"></i> Adequate</p>
+                <br><br>
+                <h4 class="light-green-text text-darken-4">What is Calcium?</h4>
+                <p class="light-green-text text-darken-4"></p>
+            </div>
+            
+        </div>
+    </div>
 
     <!-- Vitamins -->
     <div class="container">
