@@ -291,7 +291,6 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     justify-content: center;
     align-items: center;
     border-radius: 13px 13px 0 0;
-    border: 6px solid white;
     z-index: 1;
 }
 
