@@ -177,8 +177,19 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.tabs');
-    var options = {};
-    var instances = M.Tabs.init(elems, options);
+// document.addEventListener('DOMContentLoaded', function() {
+//     var elems = document.querySelectorAll('.tabs');
+//     var options = {};
+//     var instances = M.Tabs.init(elems, options);
+// });
+
+document.addEventListener('DOMContentLoaded', function(){
+    const list = document.querySelectorAll('.list');
+    function activeLink(){
+        list.forEach((item) =>
+        item.classList.remove('active'));
+        this.classList.add('active');
+    }
+    list.forEach((item) =>
+    item.addEventListener('click', activeLink));
 });

@@ -23,22 +23,58 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
+    <!-- <header class="header">
         <div class="navbar-fixed nav-bottom">
             <nav class="main-nav">
-                <div class="container">
                     <div class="nav-wrapper">
-                        <!-- <a href="https://globalelite.com.ph/"><img src="images/AppLogo.png" class="brand-logo main-logo" alt=""></a> -->
+                        <a href="https://globalelite.com.ph/"><img src="images/AppLogo.png" class="brand-logo main-logo" alt=""></a>
                         <ul class="tabs tabs-transparent">
                             <li class="tab"><a target="_self" href="main.html"><i class="fa-solid fa-house"></i></a></li>
-                            <li class="tab"><a href="#test2"><i class="fa-regular fa-file"></i></a></li>
+                            <li class="tab"><a href="#test2"><i class="fa-solid fa-apple-whole"></i></a></li>
                             <li class="tab"><a class="active" href="#"><i class="fa-solid fa-plus"></i></a></li>
-                            <li class="tab"><a href="#test4"><i class="fa-solid fa-apple-whole"></i></a></li>
-                            <li class="tab"><a href="#test5"><i class="fa-solid fa-user"></i></a></li>
+                            <li class="tab"><a href="#test4"><i class="fa-regular fa-file"></i></a></li>
+                            <li class="tab"><a href="#test5"><i class="fa-solid fa-ellipsis"></i></a></li>
                         </ul>
                     </div>
-                </div>
             </nav>
+        </div>
+    </header> -->
+
+    <header class="header">
+        <div class="navigation">
+            <ul>
+                <li class="list">
+                    <a href="main.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="nutrition-outline"></ion-icon></span>
+                        <span class="text">Food Log</span>
+                    </a>
+                </li>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="add-outline"></ion-icon></span>
+                        <span class="text">Add</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="document-text-outline"></ion-icon></span>
+                        <span class="text">PDRI</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
+                        <span class="text">More</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
         </div>
     </header>
 
@@ -186,8 +222,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Calendar and Time JS -->
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- Ionicons JS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click', activeLink));
+    </script>
     
 </body>
 </html>
