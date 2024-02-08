@@ -362,8 +362,8 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     content: '';
     position: absolute;
     top: 50%;
-    left: -22px;
-    width: 20px;
+    left: -408px;
+    width: 700%;
     height: 20px;
     background: transparent;
     border-top-right-radius: 20px;
@@ -374,8 +374,8 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     content: '';
     position: absolute;
     top: 50%;
-    right: -22px;
-    width: 20px;
+    right: -408px;
+    width: 700%;
     height: 20px;
     background: transparent;
     border-top-left-radius: 20px;
