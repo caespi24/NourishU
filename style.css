@@ -356,7 +356,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 ul.account-about-btn{
     display: flex;
     flex-direction: column;
-    margin: 0 0rem 3rem -1.32rem;
+    margin: 0 0rem 3rem .4rem;
 }
 
 .account-about-btn li{

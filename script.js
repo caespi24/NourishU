@@ -25,7 +25,9 @@ $(document).ready(function(){
     }, 5000);
 
     // Floating Action Button init
-    $('.fixed-action-btn').floatingActionButton();
+    $('.fixed-action-btn').floatingActionButton({
+        direction: 'top'
+    });
 
     // Dropdown init
     $('.dropdown-trigger').dropdown();
