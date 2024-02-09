@@ -25,9 +25,7 @@ $(document).ready(function(){
     }, 5000);
 
     // Floating Action Button init
-    $('.fixed-action-btn').floatingActionButton({
-        toolbarEnabled: true
-    });
+    $('.fixed-action-btn').floatingActionButton();
 
     // Dropdown init
     $('.dropdown-trigger').dropdown();

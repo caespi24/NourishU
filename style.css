@@ -347,6 +347,17 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     transform: translateY(10px);
 }
 
+.more-btn{
+    bottom: -.5rem;
+    left: 21.6rem;
+}
+
+/* .account-about-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .indicator{
     position: absolute;
     top: -50%;

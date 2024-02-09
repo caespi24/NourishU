@@ -67,10 +67,17 @@
                     </a>
                 </li>
                 <li class="list">
-                    <a href="#" data-target="slide-out" class="sidenav-trigger">
-                        <span class="icon"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
-                        <span class="text">More</span>
-                    </a>
+                    <div class="fixed-action-btn more-btn">
+                        <a href="#">
+                            <span class="icon"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
+                            <span class="text">More</span>
+                        </a>
+                        <ul class="account-about-btn">
+                            <li><a href="#" class="btn-floating red"><i class="material-icons">account_circle</i></a></li>
+                            <li><a href="#" class="btn-floating yellow darken-1"><i class="material-icons">info</i></a></li>
+                        </ul>
+                    </div>
+                    
                 </li>
                 <div class="indicator"></div>
             </ul>
@@ -78,21 +85,15 @@
     </header>
 
     <!-- Sidenav -->
-    <ul id="slide-out" class="sidenav">
-        <li><div class="user-view">
-            <div class="background">
-                <!-- <img src="images/Food Bowl.png"> -->
+    <!-- <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background"></div>
             </div>
-            <a href="#user"><img class="circle" src="images/AppLogo.png"></a>
-            <a href="#name"><span class="black-text name">John Doe</span></a>
-            <a href="#email"><span class="black-text email">jdandturk@gmail.com</span></a>
-        </div></li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-    </ul>
+            <a href="#user"><img src="images/AppLogo.png" class="circle" alt=""></a>
+        </li>
+        <li></li>
+    </ul> -->
     
 
     
@@ -280,7 +281,7 @@
         <div class="modal-content">
             <div class="card-panel cp1">
                 <h2 class="light-green-text text-darken-4">Calcium</h2>
-                <p class="flow-text light-green-text text-darken-4">Status: <i class="fa-solid fa-circle" style="color: #33691e;"></i> Adequate</p>
+                <p class="flow-text light-green-text text-darken-4 status">Status: <i class="fa-solid fa-circle" style="color: #33691e;"></i> Adequate</p>
                 <br><br>
                 <h4 class="light-green-text text-darken-4">Risks</h4>
                 <p class="light-green-text text-darken-4">Inadequate calcium intake in adults can lead to various health risks and complications, as calcium is an essential mineral with crucial functions in the body.</p>
