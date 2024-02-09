@@ -301,8 +301,8 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 .navigation ul li{
     position: relative;
     list-style: none;
-    width: 70px;
-    height: 70px;
+    /* width: 70px; */
+    margin: 0 1.25rem;
     z-index: 1;
 }
 
@@ -334,6 +334,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 .navigation ul li a .text{
     position: absolute;
     color: white;
+    margin: 1rem 0;
     font-weight: 400;
     font: .75em;
     letter-spacing: .05em;
@@ -352,11 +353,16 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     left: 21.6rem;
 }
 
-/* .account-about-btn{
+ul.account-about-btn{
     display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+    flex-direction: column;
+    margin: 0 0rem 3rem -1.32rem;
+}
+
+.account-about-btn li{
+    height: 70px;
+    width: 45px;
+}
 
 .indicator{
     position: absolute;
