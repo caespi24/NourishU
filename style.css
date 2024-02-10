@@ -758,3 +758,18 @@ label.active{
     transform: translateY(-10px);
 }
 
+/* About Account Img */
+.about-account-img1{
+    background-image: url(images/Text+Logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.about-h3{
+    margin-top: 0;
+    font-family: "Avant Garde Gothic";
+    color: #33691e;
+}
+
