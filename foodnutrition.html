@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/a4e8164e66.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Website Icon -->
+    <link rel="icon" href="images/AppLogo.png">
+    <!-- Calendar and time CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+
+    <title>NourishU</title>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="navigation">
+            <ul>
+                <li class="list">
+                    <a href="main.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="nutrition-outline"></ion-icon></span>
+                        <span class="text">Food Log</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="foodlog1.html">
+                        <span class="icon"><ion-icon name="add-outline"></ion-icon></span>
+                        <span class="text">Add</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="pdrifull.html">
+                        <span class="icon"><ion-icon name="document-text-outline"></ion-icon></span>
+                        <span class="text">PDRI</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <div class="fixed-action-btn more-btn">
+                        <a href="#">
+                            <span class="icon"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
+                            <span class="text">More</span>
+                        </a>
+                        <ul class="account-about-btn">
+                            <li class="li-btn"><a href="#" class="btn-floating btn-large black"><i class="fa-solid fa-language"></i></a></li>
+                            <li class="li-btn"><a href="#" class="btn-floating btn-large yellow darken-4"><i class="material-icons">info</i></a></li>
+                            <li class="li-btn"><a href="#" class="btn-floating btn-large red"><i class="material-icons">account_circle</i></a></li>
+                        </ul>
+                    </div>
+                    
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Food Intake -->
+    <div class="container">
+        <!-- Back button -->
+        <br>
+        <a href="main.html" class="back-btn"><i class="material-icons">arrow_back</i></a>
+        <br>
+
+        <h3 class="left nit-h3">Food Logs</h3>
+        <p class="left nit-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil non dignissimos, mollitia eveniet quibusdam nemo temporibus? Nisi fugiat eaque asperiores commodi soluta nulla provident eos. Quasi adipisci totam non odit?</p>
+
+        <!-- Table -->
+        <table class="highlight centered responsive-table">
+            <thead>
+                <tr>
+                    <th>Food Name</th>
+                    <th>Servings</th>
+                    <th>Nutrients</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Eggplant</td>
+                    <td>1 cup</td>
+                    <td>Vitamin E</td>
+                </tr>
+                <tr>
+                    <td>Eggplant</td>
+                    <td>1 cup</td>
+                    <td>Vitamin E</td>
+                </tr>
+                <tr>
+                    <td>Eggplant</td>
+                    <td>1 cup</td>
+                    <td>Vitamin E</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Calculated Nutrition -->
+    <div class="container">
+        <h3 class="left nit-h3">Calculated Nutrition</h3>
+        <p class="left nit-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil non dignissimos, mollitia eveniet quibusdam nemo temporibus? Nisi fugiat eaque asperiores commodi soluta nulla provident eos. Quasi adipisci totam non odit?</p>
+
+        <!-- Table -->
+        <table class="highlight centered responsive-table">
+            <thead>
+                <tr>
+                    <th>Nutrient Name</th>
+                    <th>Value</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Eggplant</td>
+                    <td>1 cup</td>
+                    <td>Vitamin E</td>
+                </tr>
+                <tr>
+                    <td>Eggplant</td>
+                    <td>1 cup</td>
+                    <td>Vitamin E</td>
+                </tr>
+                <tr>
+                    <td>Eggplant</td>
+                    <td>1 cup</td>
+                    <td>Vitamin E</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Ionicons JS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click', activeLink));
+    </script>
+    
+</body>
+</html>

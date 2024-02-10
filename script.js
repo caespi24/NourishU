@@ -19,9 +19,14 @@ $(document).ready(function(){
         indicators: false
     });
 
-     // function for carousel autoplay
+     // function for carousel autoplay (main-cs)
     setInterval(function(){
-    $('.main-cs', '.cs').carousel('next');
+    $('.main-cs').carousel('next');
+    }, 5000);
+
+     // function for carousel autoplay (cs)
+    setInterval(function(){
+        $('.cs').carousel('next');
     }, 5000);
 
     // Floating Action Button init
