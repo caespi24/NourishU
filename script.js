@@ -185,14 +185,6 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 });
 
-document.addEventListener('DOMContentLoaded', function(){
-    var carouselHeight = window.innerHeight;
-    var elems = document.querySelectorAll('.micronutrients');
-    for(var i = 0; i < elems.length; i++){
-        elems[i].style.height = carouselHeight + 'px';
-    }
-});
-
 // document.addEventListener('DOMContentLoaded', function() {
 //     var elems = document.querySelectorAll('.tabs');
 //     var options = {};

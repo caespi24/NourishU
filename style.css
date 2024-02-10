@@ -3,12 +3,12 @@ body{
     /* background-color: #f9fbe7; */
 }
 
-/* section.micronutrients{
+section.micronutrients{
     height: 50vh;
 }
 
 section.calcnut{
-    height: 110vh;
+    height: 80vh;
 }
 
 section.foodlog{
@@ -16,8 +16,8 @@ section.foodlog{
 }
 
 section.pdrimax{
-    height: 360vh;
-} */
+    height: 200vh;
+}
 
 @font-face {
     font-family: "Avant Garde Gothic";
