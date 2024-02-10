@@ -732,8 +732,29 @@ ul.account-about-btn{
     line-height: 18px;
 }
 
-/* More Button*/
-/* Sidenav */
-.background{
-    
+/* Account */
+label.active{
+    font-size: 20px;
+    line-height: 10px;
 }
+
+.sign-out-btn{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: none;
+    width: 150px;
+    text-align: center;
+    background: transparent;
+    color:#33691e;
+    border: transparent;
+    transition: .2s ease;
+}
+
+.sign-out-btn:hover{
+    transform: translateY(-10px);
+}
+
