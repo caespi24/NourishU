@@ -483,8 +483,8 @@ ul.account-about-btn{
 }
 
 .flr-img{
-    border: 3px solid #33691e;
-    background: #33691e;
+    border: 3px solid white;
+    background: #171817;
     padding: 0;
     border-radius: 50px;
     margin-left: 4.7rem;
@@ -493,9 +493,63 @@ ul.account-about-btn{
     width: 70px;
 }
 
-.cp-flr{
-    background-color: #6cb434;
-    border: 3px solid #33691e;
+.cp-flr1{
+    background-image: linear-gradient(rgba(0, 0, 0, .75),rgba(0, 0, 0, .75)), url(images/BG_Final_1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    color: white;
+    width: 250px;
+    margin-left: -2.5rem;
+}
+
+.cp-flr2{
+    background-image: linear-gradient(rgba(0, 0, 0, .75),rgba(0, 0, 0, .75)), url(images/BG_Final_2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    color: white;
+    width: 250px;
+    margin-left: -2.5rem;
+}
+
+.cp-flr3{
+    background-image: linear-gradient(rgba(0, 0, 0, .75),rgba(0, 0, 0, .75)), url(images/BG_Final_3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    color: white;
+    width: 250px;
+    margin-left: -2.5rem;
+}
+.cp-flr4{
+    background-image: linear-gradient(rgba(0, 0, 0, .75),rgba(0, 0, 0, .75)), url(images/BG_Final_4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    color: white;
+    width: 250px;
+    margin-left: -2.5rem;
+}
+.cp-flr5{
+    background-image: linear-gradient(rgba(0, 0, 0, .75),rgba(0, 0, 0, .75)), url(images/BG_Final_5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    color: white;
+    width: 250px;
+    margin-left: -2.5rem;
+}
+.cp-flr6{
+    background-image: linear-gradient(rgba(0, 0, 0, .75),rgba(0, 0, 0, .75)), url(images/BG_Final_6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 13px;
     color: white;
     width: 250px;
