@@ -275,6 +275,10 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     border-radius: 20px;
 }
 
+.cp1 h2{
+    font-size: 40px;
+}
+
 .send-btn{
     margin: 1rem;
     background-color: rgba(0, 0, 0, 0.9);
