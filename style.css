@@ -322,7 +322,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     position: relative;
     list-style: none;
     /* width: 70px; */
-    margin: 0 1.245rem;
+    margin: 0 1.25rem;
     z-index: 1;
 }
 
