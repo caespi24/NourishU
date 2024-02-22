@@ -1,3 +1,27 @@
+<?php
+session_start();
+if (isset($_GET['firstname']) && isset($_GET['id'])) {
+    $firstName = htmlspecialchars($_GET['firstname']);
+    $userId = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT); // Validate ID as integer
+
+    if (false === $userId) {
+        // Handle the case where ID is not valid
+        echo "Invalid ID.";
+    } else {
+        // Proceed with using $firstName and $userId
+    //    echo "<script>alert('Welcome, " . $firstName . "');</script>";
+        // You can use $userId as needed here
+    }
+} else {
+    header("Location: index.php"); // Redirect if required parameters are missing
+}
+?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -198,7 +222,7 @@
                 <h6 class="center nu-h6">Lifelong Wellness through Nutrition!</h6>
                 <h6 class="center nu-h6p">This easy-to-use food logger app, grounded in PDRI's nutrition guidelines, simplifies tracking your meals and nutritional intake. Whether you're embracing vegetarianism or striving for a well-rounded diet, NourishU is here to guide you towards your dietary objectives. Begin your path to improved health and wellness with NourishU today!</h6>
                 <br>
-                <a href="main.html" class="pdri-btn">Get Started</a>
+                <a href="main.php" class="pdri-btn">Get Started</a>
             </div>
         </div>
     </div>

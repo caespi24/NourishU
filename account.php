@@ -1,3 +1,34 @@
+<?php
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    // If the user ID is not set, redirect to login page
+    header("Location: index.php");
+    exit();
+}
+
+// Include your database connection code here
+$conn = mysqli_connect('localhost', 'root', '', 'nourishu_db');
+if (!$conn) {
+    die("Connection failed: " . mysqli_error($conn));
+}
+
+$userId = $_SESSION['user_id'];
+
+// Prepare a statement to avoid SQL injection
+$stmt = $conn->prepare("SELECT * FROM userinfo_tbl WHERE ID = ?");
+$stmt->bind_param("i", $userId);
+$stmt->execute();
+$result = $stmt->get_result();
+
+if ($result->num_rows > 0) {
+    $userInfo = $result->fetch_assoc();
+    // Now you can use $userInfo['column_name'] to access user information
+} else {
+    echo "No user found.";
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,42 +79,48 @@
         </div>
         <br><br><br><br>
         <div class="row">
-            <form action="" class="col s12">
+            <!-- <form action="" class="col s12"> -->
+              <form action="updateAccountInfo.php" method="POST" class="col s12">
                 <div class="input-field col s6 center fname">
-                    <input class="fname" id="fname" placeholder="First Name" type="text" readonly required>
+                  <input class="fname" id="fname" placeholder="First Name" type="text" value="<?php echo htmlspecialchars($userInfo['FN']); ?>" disabled required>
+
+                    <!-- <input class="fname" id="fname" placeholder="First Name" type="text" readonly required> -->
                     <label for="fname">First Name</label>
                 </div>
                 <div class="input-field col s6 center lname">
-                    <input class="lname" id="lname" placeholder="Last Name" type="text" readonly required>
+
+                    <input class="lname" id="lname" placeholder="Last Name" type="text" value="<?php echo htmlspecialchars($userInfo['LN']); ?>" disabled required>
                     <label for="lname">Last Name</label>
                 </div>
                 <br><br><br><br>
                 <div class="input-field col s12 center bdate">
-                    <input class="bdate" id="bdate" placeholder="Birthdate" type="text" readonly required>
+                    <input class="bdate-up" id="bdate" placeholder="Birthdate" type="text" value="<?php echo htmlspecialchars($userInfo['BDATE']); ?>" disabled required>
                     <label for="bdate">Birthdate</label>
                 </div>
                 <br><br><br><br>
                 <div class="input-field col s6 center age">
-                    <input class="age" id="age" placeholder="Age" type="text" readonly required>
+                    <input class="age" id="age" placeholder="Age" type="text" value="<?php echo htmlspecialchars($userInfo['AGE']); ?>" disabled required>
                     <label for="age">Age</label>
                 </div>
-                <div class="input-field col s6 center gender">
-                    <input class="gender" id="gender" placeholder="Gender" type="text" readonly required>
-                    <label for="gender">Gender</label>
+
+                <div class="input-field col s6 center sex">
+                    <input class="sex" id="sex" placeholder="Sex" type="text" value="<?php echo htmlspecialchars($userInfo['SEX']); ?>" disabled required>
+                    <label for="sex">Sex</label>
                 </div>
                 <br><br><br><br>
                 <div class="input-field col s12 center weight">
-                    <input class="weight" id="weight" placeholder="Weight(kg)" type="text" readonly required>
+                    <input class="weight" id="weight" placeholder="Weight(kg)" type="text" value="<?php echo htmlspecialchars($userInfo['WEIGHT']); ?>" disabled required>
                     <label for="weight">Weight</label>
                 </div>
                 <br><br><br><br>
                 <div class="input-field col s12 center height">
-                    <input class="height" id="height" placeholder="Height(cm)" type="text" readonly required>
+                    <input class="height" id="height" placeholder="Height(cm)" type="text" value="<?php echo htmlspecialchars($userInfo['HEIGHT']); ?>" disabled required>
                     <label for="height">Height</label>
                 </div>
+                <button class="create-btn" type="submit" id="edit-btn" disabled><i class="left material-icons">mode_edit</i>Update</button>
             </form>
         </div>
-        <button class="create-btn" id="edit-btn" disabled><i class="left material-icons">mode_edit</i>Edit</button>
+
         <button class="sign-out-btn"><i class="left material-icons">exit_to_app</i>Sign Out</button>
     </div>
 

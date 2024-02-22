@@ -8,11 +8,15 @@ section.micronutrients{
 }
 
 section.calcnut{
-    height: 80vh;
+    height: 90vh;
 }
 
 section.foodlog{
-    height: 65vh;
+    height: 90vh;
+}
+
+section.logss{
+    height: 120vh;
 }
 
 section.pdrimax{
@@ -37,8 +41,8 @@ section.pdrimax{
 }
 
 .username{
-    margin: 0 0 2rem 0;
-    border-radius: 30px;
+    margin: 1rem 0 2rem 0;
+    border-bottom: 2px solid #33691e;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
@@ -50,8 +54,8 @@ section.pdrimax{
 }
 
 .fname{
-    margin: -1rem 0 2rem 0;
-    border-radius: 30px;
+    margin: 1rem 0 2rem 0;
+    border-bottom: 2px solid #33691e;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
@@ -63,8 +67,8 @@ section.pdrimax{
 }
 
 .lname{
-    margin: -1rem 0 2rem 0;
-    border-radius: 30px;
+    margin: 1rem 0 2rem 0;
+    border-bottom: 2px solid #33691e;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
@@ -76,8 +80,8 @@ section.pdrimax{
 }
 
 .age{
-    margin: -1rem 0 2rem 0;
-    border-radius: 30px;
+    margin: 1rem 0 2rem 0;
+    border-bottom: 2px solid #33691e;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
@@ -88,15 +92,15 @@ section.pdrimax{
     border-radius: 30px;
 }
 
-.gender{
-    margin: -1rem 0 2rem 0;
+.sex{
+    margin: 1rem 0 2rem 0;
     border-radius: 30px;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
-.gender.active {
+.sex.active {
     border: 2px solid #33691e;
     border-radius: 30px;
 }
@@ -141,8 +145,8 @@ section.pdrimax{
 }
 
 .email{
-    margin: -1rem 0 2rem 0;
-    border-radius: 30px;
+    margin: 1rem 0 2rem 0;
+    border-bottom: 2px solid #33691e;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
@@ -154,14 +158,170 @@ section.pdrimax{
 }
 
 .password{
-    margin: -1rem 0 2rem 0;
-    border-radius: 30px;
+    margin: 1rem 0 2rem 0;
+    border-bottom: 2px solid #33691e;
     height: 3rem;
     color: #595959;
     background-color: rgb(238, 238, 238);
 }
 
 .password.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.fdname{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.fdname.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.fdcid{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.fdcid.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.fgroup{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.fgroup.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.cname{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.cname.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.eportion{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.eportion.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.protein{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.protein.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.energy{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.energy.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.carbs{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.carbs.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.fats{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.fats.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.fiber{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.fiber.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.vitc{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.vitc.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.vitb12{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.vitb12.active{
+    border: 2px solid #33691e;
+    border-radius: 30px;
+}
+
+.calc{
+  border-radius: 30px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.calc.active{
     border: 2px solid #33691e;
     border-radius: 30px;
 }
@@ -216,18 +376,26 @@ section.pdrimax{
     border: 1px solid #8bc34a;
 }
 
+.create-btn:disabled{
+  background-color:  grey;
+  color: white;
+  border-color: grey;
+}
+
 .or-text{
     margin: 1rem auto -1rem auto;
     font-size: 18px;
     font-weight: bold;
 }
 
-input[type=text]:not(.browser-default), input[type=password]:not(.browser-default){
-    border-bottom: none;
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    border: none;
+    background: transparent;
 }
 
-input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]){
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
     border: none;
+    background: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -275,10 +443,6 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     border-radius: 20px;
 }
 
-.cp1 h2{
-    font-size: 40px;
-}
-
 .send-btn{
     margin: 1rem;
     background-color: rgba(0, 0, 0, 0.9);
@@ -296,6 +460,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 }
 
 .login-bg-img{
+    margin-top: 6rem;
     margin-bottom: -1rem;
 }
 
@@ -304,13 +469,17 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 .navigation{
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 95%;
     height: 70px;
+    /* margin: .75rem .75rem; */
+    left: 50% !important;
+    transform: translate(-50%, -10%) !important;
+    border-radius: 15px;
     background: #33691e;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 999;
 }
 
 .navigation ul{
@@ -323,7 +492,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
     list-style: none;
     /* width: 70px; */
     margin: 0 1.25rem;
-    z-index: 1;
+    z-index: 999;
 }
 
 .navigation ul li a{
@@ -348,7 +517,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
 }
 
 .navigation ul li.active a .icon{
-    transform: translateY(-32px);
+    transform: translateY(-30px);
 }
 
 .navigation ul li a .text{
@@ -399,7 +568,7 @@ ul.account-about-btn{
     content: '';
     position: absolute;
     top: 50%;
-    left: -410px;
+    left: -414px;
     width: 700%;
     height: 20px;
     background: transparent;
@@ -411,7 +580,7 @@ ul.account-about-btn{
     content: '';
     position: absolute;
     top: 50%;
-    right: -410px;
+    right: -414px;
     width: 700%;
     height: 20px;
     background: transparent;
@@ -597,6 +766,21 @@ ul.account-about-btn{
     padding: 1.8rem 0;
 }
 
+.mn-icons-inadequate {
+    background-color: #ff1744; /* Red background */
+    border: 3px solid #b2102f; /* Darker red border */
+    border-radius: 100%;
+    font-size: 11px;
+    color: white;
+    height: 120px;
+    width: 120px;
+    margin-top: 8rem;
+    margin-left: 2.5rem;
+    padding: 1.8rem 0;
+}
+
+
+
 .cs{
     height: 150px;
 }
@@ -628,7 +812,21 @@ ul.account-about-btn{
 .food-search{
     background-color: #33691e;
     border: 2px solid #64dd17;
+    color: white;
     border-radius: 30px;
+}
+
+nav .input-field label i{
+  color: #444;
+}
+
+input[type=search]:not(.browser-default)+label i{
+  color: #444;
+  transition: .3s linear;
+}
+
+input[type=search]:not(.browser-default), input[type=search]:not(.browser-default):focus:not([readonly]), .input-field input[type=search]:focus:not(.browser-default)+label i, .input-field input[type=search]:focus:not(.browser-default) ~ .mdi-navigation-close, .input-field input[type=search]:focus:not(.browser-default) ~ .material-icons{
+  color: white;
 }
 
 #search{
@@ -735,10 +933,10 @@ ul.account-about-btn{
     }
     50%{
         transform: translateX(2.4rem);
-    }  
+    }
     100%{
         transform: translateX(0);
-    }  
+    }
 }
 
 .swipe-text-down{
@@ -752,10 +950,10 @@ ul.account-about-btn{
     }
     50%{
         transform: translateY(-2.4rem);
-    }  
+    }
     100%{
         transform: translateY(0);
-    }  
+    }
 }
 
 .pdri-img2{
@@ -848,3 +1046,92 @@ label.active{
     color: #33691e;
 }
 
+/* Datepicker */
+.datepicker-modal {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.date-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-date{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.datepicker-date-display{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/BG_Final_6.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 2px solid #33691e;
+  box-shadow: none;
+}
+
+/* Dropdown */
+.dropdown-content li>a, .dropdown-content li>span{
+  color: #33691e;
+}
+
+/* Tabs */
+.tabs .tab{
+  /* width: 400px; */
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+  background-color: #33691e;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+  background-color: #33691e;
+  color: white;
+}
+
+.tabs .tab a{
+  color: #33691e;
+}
+
+/* Edit and Delete btn */
+.edit-btn{
+  border-radius: 20px 0 0 20px;
+}
+
+.delete-btn{
+  border-radius: 0 20px 20px 0;
+}
+
+/* toggle-switch */
+.switch label input[type=checkbox]:checked+.lever{
+  background-color: #64dd17;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after{
+  background-color: #33691e;
+}
+
+/* Modal Bottom Sheet */
+.bottom-modal{
+}
+
+.bottom-modal li a{
+  display: flex !important;
+ flex-direction: row !important;
+ justify-content: center !important;
+ align-items: center !important;
+   margin: 1rem 0;
+}
+
+.suggest li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    color: black;
+    background-color: transparent;
+}
